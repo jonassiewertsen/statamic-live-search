@@ -1,0 +1,44 @@
+{
+  "name": "jonassiewertsen/statamic-livewire-search",
+  "description": "A Statamic Live Serach realised with Laravel Livewire.",
+  "keywords": [
+    "Statamic",
+    "Addon",
+    "Laravel",
+    "Livewire",
+    "Serach",
+    "Live"
+  ],
+  "license": "MIT",
+  "type": "statamic-addon",
+  "autoload": {
+    "psr-4": {
+      "Jonassiewertsen\\Livewire\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jonas Siewertsen"
+    }
+  ],
+  "support": {
+    "email": "mail@jonassiewertsen.com"
+  },
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "illuminate/support": "^7.0 || ^8.0",
+    "statamic/cms": "3.0.*",
+    "jonassiewertsen/statamic-livewire": "^2.0"
+  },
+  "extra": {
+    "statamic": {
+      "name": "Livewire",
+      "description": "A Laravel Livewire integration for Statamics antlers engine"
+    },
+    "laravel": {
+      "providers": [
+        "Jonassiewertsen\\Livewire\\ServiceProvider"
+      ]
+    }
+  }
+}
