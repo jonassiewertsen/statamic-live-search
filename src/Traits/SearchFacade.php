@@ -15,7 +15,7 @@ trait SearchFacade {
             ->take($limit)
             ->map(function ($item) {
                 return $item->toAugmentedCollection(
-                    config('livewire-serach.augementedCollection', [])
+                    config('livewire-search.augmentedCollection', [])
                 )->withShallowNesting();
             });
     }

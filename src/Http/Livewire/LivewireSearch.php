@@ -2,14 +2,10 @@
 
 namespace Jonassiewertsen\LivewireSearch\Http\Livewire;
 
-use Jonassiewertsen\LivewireSearch\Traits\SearchFacade;
-
 class LivewireSearch extends Search
 {
-    use SearchFacade;
-
-    private string $template;
-    private ?string $index;
+    public $template;
+    public $index;
 
     public function mount(string $template, string $index = null)
     {
