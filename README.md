@@ -2,7 +2,7 @@
 ![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jonassiewertsen/statamic-livewire-search.svg?style=for-the-badge)](https://packagist.org/packages/jonassiewertsen/statamic-livewire-search)
 
-A live search addon for Statamic realized with [Laravel Livewire](https://laravel-livewire.com/).
+A Statamic Live Search realised with [Laravel Livewire](https://laravel-livewire.com/).
 
 It's fast to implement, hooks into the Statamic 3 core serach and does add the 'update as you type flavor'. 
 

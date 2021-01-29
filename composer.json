@@ -1,6 +1,6 @@
 {
   "name": "jonassiewertsen/statamic-livewire-search",
-  "description": "A Statamic Live Serach realised with Laravel Livewire.",
+  "description": "A Statamic Live Search realized with Laravel Livewire.",
   "keywords": [
     "Statamic",
     "Addon",
@@ -33,7 +33,7 @@
   "extra": {
     "statamic": {
       "name": "Livewire",
-      "description": "A Laravel Livewire integration for Statamics antlers engine"
+      "description": "A Statamic Live Search realized with Laravel Livewire."
     },
     "laravel": {
       "providers": [
