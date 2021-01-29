@@ -84,6 +84,32 @@ Your template does need the following elements.
 </div>
 ```
 
+## Configure your index
+
+That's the great thing. This addon does hook into Statamic core search. Just configure your indexes in the `config/statamic/serach.php` file. 
+
+If you don't provide any index, we will search in all existing. That's great for smaller sites. 
+
+A more specific search could look something similar:
+
+```php
+'blog' => [
+     'driver' => 'local',
+     'searchables' => 'collection:blog',
+ ],
+```
+
+Remember to define the index in your component:
+
+```html
+{{ livewire:search template='partials.search' index='blog' }}
+```
+
+To update your indexes, run `php please search:update` [More information](https://statamic.dev/search#updating-indexes)
+
+[See the Statamic docs for more information](https://statamic.dev/search#searchables)
+
+
 ## Customize the search logic
 
 The provied parts have been build modular, so you can easily extend those parts. 
