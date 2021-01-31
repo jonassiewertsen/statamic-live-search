@@ -4,10 +4,10 @@
   "keywords": [
     "Statamic",
     "Addon",
-    "Laravel",
+    "Plugin",
     "Livewire",
-    "Serach",
-    "Live"
+    "Live",
+    "Search"
   ],
   "license": "MIT",
   "type": "statamic-addon",
