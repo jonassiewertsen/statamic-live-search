@@ -6,7 +6,8 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Log;
 use Statamic\Facades\Search as StatamicSearchFacade;
 
-trait SearchFacade {
+trait SearchFacade
+{
     protected function search($query, ?string $index = null, ?int $limit = 10): Collection
     {
         return StatamicSearchFacade::index($index)
