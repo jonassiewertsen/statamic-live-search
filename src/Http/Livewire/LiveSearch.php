@@ -7,9 +7,12 @@ class LiveSearch extends Search
     public $template;
     public $index;
 
-    public function mount(string $template, string $index = null)
+    public function mount(string $template = null, string $index = null)
     {
-        $this->template = $template;
+        // In case no template has been defined, we will fall back to a default layout.
+        $this->template = $template ?? 'live-search::dropdown';
+
+        // An index can be null. In that case, all indexes will get searched.
         $this->index = $index;
     }
 

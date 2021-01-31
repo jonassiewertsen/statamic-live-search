@@ -30,9 +30,19 @@ trait SearchFacade
         $configKey = "statamic.search.indexes.{$index}.fields";
 
         if (! config()->has($configKey)) {
-            Log::warning("Live Search: The defined index '{$index}' does not exist in your search configuration `config/statamic/search.php`. We will only return the title as filed for now.");
+           $this->logMissingIndex($index);
         }
 
         return config($configKey, ['title']);
+    }
+
+    /**
+     * In case an index does not exist, information will be written into the log file.
+     */
+    private function logMissingIndex(string $index): void
+    {
+        $message = "Live Search: The defined index '{$index}' does not exist in your search configuration `config/statamic/search.php`. We will only return the title as filed for now.";
+
+        Log::warning($message);
     }
 }
