@@ -30,7 +30,7 @@ trait SearchFacade
         $configKey = "statamic.search.indexes.{$index}.fields";
 
         if (! config()->has($configKey)) {
-           $this->logMissingIndex($index);
+            $this->logMissingIndex($index);
         }
 
         return config($configKey, ['title']);
