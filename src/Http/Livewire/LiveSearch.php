@@ -1,8 +1,8 @@
 <?php
 
-namespace Jonassiewertsen\LivewireSearch\Http\Livewire;
+namespace Jonassiewertsen\LiveSearch\Http\Livewire;
 
-class LivewireSearch extends Search
+class LiveSearch extends Search
 {
     public $template;
     public $index;

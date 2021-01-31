@@ -1,6 +1,6 @@
 <?php
 
-namespace Jonassiewertsen\LivewireSearch\Traits;
+namespace Jonassiewertsen\LiveSearch\Traits;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Log;

@@ -1,6 +1,6 @@
 # Statamic Livewire Search
 ![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jonassiewertsen/statamic-livewire-search.svg?style=for-the-badge)](https://packagist.org/packages/jonassiewertsen/statamic-livewire-search)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jonassiewertsen/statamic-live-search.svg?style=for-the-badge)](https://packagist.org/packages/jonassiewertsen/statamic-live-search)
 
 A Statamic Live Search realised with [Laravel Livewire](https://laravel-livewire.com/).
 
@@ -15,7 +15,7 @@ Check out my [Statmic 3 Livewire integration](https://github.com/jonassiewertsen
 ## Installation
 Pull in your package with composer
 ```bash
-composer require jonassiewertsen/statamic-livewire-search
+composer require jonassiewertsen/statamic-live-search
 ```
 
 ## Requirements
@@ -124,7 +124,7 @@ The provied parts have been build modular, so you can easily extend those parts.
 ```php
 namespace App\Your\Namespace;
 
-use Jonassiewertsen\LivewireSearch\Http\Livewire\Search;
+use Jonassiewertsen\LiveSearch\Http\Livewire\Search;
 
 class YourCustomLivewireController extends Search
 {
@@ -155,7 +155,7 @@ It might be that you want to customize the name of the query string or that you 
 
 You can import the SearchFacade trait and write a complete Livewire Controller as you need it. 
 
-`use Jonassiewertsen\LivewireSearch\Traits\SearchFacade;`
+`use Jonassiewertsen\LiveSearch\Traits\SearchFacade;`
 
 The provided method does expect the following parameters:
 `search($query, ?string $index = null, ?int $limit = 10)`

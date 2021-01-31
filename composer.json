@@ -1,5 +1,5 @@
 {
-  "name": "jonassiewertsen/statamic-livewire-search",
+  "name": "jonassiewertsen/statamic-live-search",
   "description": "A Statamic Live Search realized with Laravel Livewire.",
   "keywords": [
     "Statamic",
@@ -13,7 +13,7 @@
   "type": "statamic-addon",
   "autoload": {
     "psr-4": {
-      "Jonassiewertsen\\LivewireSearch\\": "src"
+      "Jonassiewertsen\\LiveSearch\\": "src"
     }
   },
   "authors": [
@@ -32,12 +32,12 @@
   },
   "extra": {
     "statamic": {
-      "name": "Livewire",
+      "name": "Live Search",
       "description": "A Statamic Live Search realized with Laravel Livewire."
     },
     "laravel": {
       "providers": [
-        "Jonassiewertsen\\LivewireSearch\\ServiceProvider"
+        "Jonassiewertsen\\LiveSearch\\ServiceProvider"
       ]
     }
   }

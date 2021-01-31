@@ -1,8 +1,8 @@
 <?php
 
-namespace Jonassiewertsen\LivewireSearch;
+namespace Jonassiewertsen\LiveSearch;
 
-use Jonassiewertsen\LivewireSearch\Http\Livewire\LivewireSearch;
+use Jonassiewertsen\LiveSearch\Http\Livewire\LiveSearch;
 use Livewire\Livewire;
 use Statamic\Providers\AddonServiceProvider;
 
@@ -14,6 +14,6 @@ class ServiceProvider extends AddonServiceProvider
     {
         parent::boot();
 
-        Livewire::component('search', LivewireSearch::class);
+        Livewire::component('search', LiveSearch::class);
     }
 }
