@@ -1,6 +1,6 @@
 # CHANGELOG
 
-# upcoming release
+# v1.0.0
 - Removing the live search config file
 - Fields will be configured inside the `config/statamic/search.php` file
 - Rename the packge from `livewire serach` to `live search`
