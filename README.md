@@ -37,7 +37,7 @@ Add the `livewire:search` component to one of your templates and define your tem
     {{ livewire:styles }}
 </head>
 <body>
-    {{ livewire:search template='partials.search' }}
+    {{ livewire:search }}
     
     <!-- Some crazy stuff going -->
     
@@ -48,14 +48,29 @@ Add the `livewire:search` component to one of your templates and define your tem
 
 ## Setup the template
 
-To make it as flexible as possible, you need to provide your own template. You can use Antlers, but for speed reasons
-it's recommended to use blade as the template. 
+### Use the default dropdown layout
+
+To get you started as fast as possible, we do provide a default template. You can publish it and edit it after your needs. 
+
+```bash
+php artisan vendor:publish --tag=live-search:views
+```
+
+After publishing, you will find the template inside `resources/views/vendor/live-search/dropdown.blade.php`. It can be edited as you like.
+
+### Use your own template
+
+Create your own template and put it somewhere you like. Define the template in the tag and you are ready to go:
+
+```html
+{{ livewire:search template='partials.your-own-search-template' }}
+```
 
 If the template name is `partials.search`, the template is expected at `resources\views\partials\search.blade.php` or `resources\views\partials\search.antlers.php`.
 
-Your template does need the following elements. 
+This might be a solid starting point for your own template:
 
-### Blade
+#### Blade
 
 ```html
 <div>
@@ -71,7 +86,7 @@ Your template does need the following elements.
 </div>
 ```
 
-### Antlers
+##$# Antlers
 ```html
 <div>
     <input wire:model="q" type="search">

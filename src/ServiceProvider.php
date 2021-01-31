@@ -21,7 +21,7 @@ class ServiceProvider extends AddonServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__ . '/../resources/views' => resource_path('views/vendor/live-search'),
-            ], 'live-search-views');
+            ], 'live-search:views');
         }
     }
 }
