@@ -59,7 +59,7 @@ Your template does need the following elements.
 
 ```html
 <div>
-    <input wire:model="q" type="text">
+    <input wire:model="q" type="search">
 
     <ul>
         @forelse($results as $result)
@@ -74,7 +74,7 @@ Your template does need the following elements.
 ### Antlers
 ```html
 <div>
-    <input wire:model="q" type="text">
+    <input wire:model="q" type="search">
 
     <ul>
         {{ results }}
@@ -96,6 +96,7 @@ A more specific search could look something similar:
 'blog' => [
      'driver' => 'local',
      'searchables' => 'collection:blog',
+     'fields' => ['title', 'url'],
  ],
 ```
 
