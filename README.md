@@ -8,7 +8,7 @@ It's fast to implement, hooks into the Statamic 3 core serach and does add the '
 
 This Package extends my third-party [Statmic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
 
-<img src="https://github.com/jonassiewertsen/statamic-live-serach/blob/master/statamic-live-search.gif?raw=true" alt="Statamic Live Search">
+<img src="https://github.com/jonassiewertsen/statamic-live-search/blob/main/statamic-live-serach.gif" alt="Statamic Live Search">
 
 #### No need for a live search?
 
