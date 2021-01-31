@@ -15,16 +15,5 @@ class ServiceProvider extends AddonServiceProvider
         parent::boot();
 
         Livewire::component('search', LivewireSearch::class);
-
-        if ($this->app->runningInConsole()) {
-            $this->publishes([
-                __DIR__ . '/../config/config.php' => config_path('livewire-serach.php'),
-            ], 'livewire-search-config');
-        }
-    }
-
-    public function register(): void
-    {
-        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'livewire-search');
     }
 }
