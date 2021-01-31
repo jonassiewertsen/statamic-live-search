@@ -6,9 +6,9 @@ A Statamic Live Search realised with [Laravel Livewire](https://laravel-livewire
 
 It's fast to implement, hooks into the Statamic 3 core serach and does add the 'update as you type flavor'. 
 
-This Package extends my third-party [Statmic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
-
 <img src="https://github.com/jonassiewertsen/statamic-live-search/blob/main/statamic-live-serach.gif" alt="Statamic Live Search">
+
+This Package extends my third-party [Statmic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
 
 #### No need for a live search?
 
