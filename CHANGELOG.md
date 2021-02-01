@@ -1,5 +1,8 @@
 # CHANGELOG
 
+# v1.0.2
+- Remove shallow nesting.
+
 # v1.0.1
 - Return all search result items. Closes #1
 
