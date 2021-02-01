@@ -14,7 +14,7 @@ trait SearchFacade
             ->search($query)
             ->get()
             ->take($limit)
-            ->map(function ($item) use ($index) {
+            ->map(function ($item) {
                 return $item->toAugmentedCollection()->withShallowNesting();
             });
     }
