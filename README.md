@@ -113,7 +113,7 @@ A more specific search could look something similar:
 'blog' => [
      'driver' => 'local',
      'searchables' => 'collection:blog',
-     'fields' => ['title', 'url'],
+     'fields' => ['title'],
  ],
 ```
 
