@@ -1,5 +1,8 @@
 # CHANGELOG
 
+# v1.0.1
+- Return all search result items. Closes #1
+
 # v1.0.0
 🥳  Let's get that search party started
 
