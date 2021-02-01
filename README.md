@@ -62,7 +62,10 @@ After publishing, you will find the template inside `resources/views/vendor/live
 
 ### Use your own template
 
-Create your own template and put it somewhere you like. Define the template in the tag and you are ready to go:
+Create your own template and put it somewhere you like. Define the template in the tag and you are ready to go.
+
+If you need augmented values, which is the case for images, it's the easiest way to use Antlers, so you don't need to worry about it.
+
 
 ```html
 {{ livewire:search template='partials.your-own-search-template' }}
