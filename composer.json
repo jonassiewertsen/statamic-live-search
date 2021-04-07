@@ -27,7 +27,7 @@
   "require": {
     "php": "^7.4 || ^8.0",
     "illuminate/support": "^7.0 || ^8.0",
-    "statamic/cms": "^3.0.* || 3.1.*",
+    "statamic/cms": "3.0.* || 3.1.*",
     "jonassiewertsen/statamic-livewire": "^2.0"
   },
   "extra": {
