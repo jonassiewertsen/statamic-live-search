@@ -106,7 +106,7 @@ This might be a solid starting point for your own template:
 
 ## Configure your index
 
-That's the great thing. This addon does hook into Statamic core search. Just configure your indexes in the `config/statamic/serach.php` file. 
+That's the great thing. This addon does hook into Statamic core search. Just configure your indexes in the `config/statamic/search.php` file. 
 
 If you don't provide any index, we will search in all existing. That's great for smaller sites. 
 
