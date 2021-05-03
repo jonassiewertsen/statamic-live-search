@@ -186,6 +186,7 @@ Have fun customizing.
 
 Thanks to:
 - [Caleb](https://github.com/calebporzio) and the community for building [Livewire](https://laravel-livewire.com/)
+- [Austenc](https://github.com/austenc) for the Statamic marketplace preview image
 
 # Support
 I love to share with the community. Nevertheless, it does take a lot of work, time and effort. 
