@@ -15,7 +15,7 @@ This Package extends my third-party [Statmic 3 Livewire integration](https://git
 Check out my [Statmic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
 
 ## Installation
-Pull in your package with composer
+Pull in the package with composer
 ```bash
 composer require jonassiewertsen/statamic-live-search
 ```
@@ -26,6 +26,10 @@ composer require jonassiewertsen/statamic-live-search
 - Statamic 3
 
 ## Set up Livewire in general
+The `create your first search` does provide a quick start example to get you started.
+
+As the `statamic-live-search` is extending the `statamic-livewire` addon, the setup is excactly the same and a deeper understanding might be useful. See the link below for more information.
+
 [Statmic 3 Livewire integration Docs](https://github.com/jonassiewertsen/statamic-livewire#general-documentation)
 
 ## Create your first search
@@ -33,6 +37,9 @@ composer require jonassiewertsen/statamic-live-search
 Add the `livewire:search` component to one of your templates and define your template.
 
 ```html
+<!-- 
+### If using Antlers ###
+-->
 <html>
 <head>
     ...
@@ -40,12 +47,32 @@ Add the `livewire:search` component to one of your templates and define your tem
 </head>
 <body>
     {{ livewire:search }}
-    
+   
     <!-- Some crazy stuff going -->
-    
+
+    ...
     {{ livewire:scripts }}
 </body>
 </html>
+
+<!-- 
+### If using Blade ###
+-->
+<html>
+<head>
+    ...
+    @livewireStyles
+</head>
+<body>
+    <livewire:search />
+    
+    <!-- Some crazy stuff going -->
+
+    ...
+    @livewireScripts
+</body>
+</html>
+
 ```
 
 ## Setup the template
@@ -68,7 +95,11 @@ If you need augmented values, which is the case for images, it's the easiest way
 
 
 ```html
+<!-- If using Antlers -->
 {{ livewire:search template='partials.your-own-search-template' }}
+
+<!-- If using Blade -->
+<livewire:search :template='partials.your-own-search-template' />
 ```
 
 If the template name is `partials.search`, the template is expected at `resources\views\partials\search.blade.php` or `resources\views\partials\search.antlers.php`.
@@ -123,7 +154,11 @@ A more specific search could look something similar:
 Remember to define the index in your component:
 
 ```html
+<!-- If using Antlers -->
 {{ livewire:search template='partials.search' index='blog' }}
+
+<!-- If using Blade -->
+<livewire:search :template='partials.search' :index='blog' />
 ```
 
 To update your indexes, run `php please search:update` [More information](https://statamic.dev/search#updating-indexes)
