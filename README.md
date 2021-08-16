@@ -1,8 +1,10 @@
+<!-- statamic:hide -->
 # Statamic Live Search
 ![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jonassiewertsen/statamic-live-search.svg?style=for-the-badge)](https://packagist.org/packages/jonassiewertsen/statamic-live-search)
+<!-- /statamic:hide -->
 
-A Statamic Live Search realised with [Laravel Livewire](https://laravel-livewire.com/).
+> A Statamic Live Search realised with [Laravel Livewire](https://laravel-livewire.com/).
 
 It's fast to implement, hooks into the Statamic 3 core serach and does add the 'update as you type flavor'. 
 
@@ -10,7 +12,7 @@ It's fast to implement, hooks into the Statamic 3 core serach and does add the '
 
 This Package extends my third-party [Statmic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
 
-#### No need for a live search?
+## No need for live search?
 
 Check out my [Statmic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
 
@@ -25,7 +27,7 @@ composer require jonassiewertsen/statamic-live-search
 - Laravel 7 or 8
 - Statamic 3
 
-## Set up Livewire in general
+## Set up Livewire
 The `create your first search` does provide a quick start example to get you started.
 
 As the `statamic-live-search` is extending the `statamic-livewire` addon, the setup is excactly the same and a deeper understanding might be useful. See the link below for more information.
@@ -122,7 +124,7 @@ This might be a solid starting point for your own template:
 </div>
 ```
 
-##$# Antlers
+#### Antlers
 ```html
 <div>
     <input wire:model="q" type="search">
@@ -223,11 +225,11 @@ Thanks to:
 - [Caleb](https://github.com/calebporzio) and the community for building [Livewire](https://laravel-livewire.com/)
 - [Austenc](https://github.com/austenc) for the Statamic marketplace preview image
 
-# Support
+## Support
 I love to share with the community. Nevertheless, it does take a lot of work, time and effort. 
 
 [Sponsor me on GitHub](https://github.com/sponsors/jonassiewertsen/) to support my work and the support for this addon.
 
-# License 
+## License 
 This plugin is published under the MIT license. Feel free to use it and remember to spread love.
 
