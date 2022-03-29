@@ -222,7 +222,7 @@ Have fun customizing.
 ## Credits
 
 Thanks to:
-- [Caleb](https://github.com/calebporzio) and the community for building [Livewire](https://laravel-livewire.com/)\
+- [Caleb](https://github.com/calebporzio) and the community for building [Livewire](https://laravel-livewire.com/)
 - [Austenc](https://github.com/austenc) for the marketplace preview image
 
 ## Support
