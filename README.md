@@ -10,11 +10,11 @@ It's fast to implement, hooks into the Statamic 3 core search and does add the '
 
 <img src="https://github.com/jonassiewertsen/statamic-live-search/blob/main/statamic-live-serach.gif?raw=true" alt="Statamic Live Search">
 
-This Package extends my third-party [Statmic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
+This Package extends my third-party [Statamic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
 
 ## No need for live search?
 
-Check out my [Statmic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
+Check out my [Statamic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
 
 ## Installation
 Pull in the package with composer
@@ -32,7 +32,7 @@ The `create your first search` does provide a quick start example to get you sta
 
 As the `statamic-live-search` is extending the `statamic-livewire` addon, the setup is excactly the same and a deeper understanding might be useful. See the link below for more information.
 
-[Statmic 3 Livewire integration Docs](https://github.com/jonassiewertsen/statamic-livewire#general-documentation)
+[Statamic 3 Livewire integration Docs](https://github.com/jonassiewertsen/statamic-livewire#general-documentation)
 
 ## Create your first search
 
