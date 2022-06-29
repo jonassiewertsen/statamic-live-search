@@ -2,6 +2,8 @@
 
 namespace Jonassiewertsen\LiveSearch\Http\Livewire;
 
+use Statamic\Facades\Site;
+
 class LiveSearch extends Search
 {
     public $template;
@@ -14,6 +16,7 @@ class LiveSearch extends Search
 
         // An index can be null. In that case, all indexes will get searched.
         $this->index = $index;
+        $this->site = Site::current()->handle;
     }
 
     public function render()

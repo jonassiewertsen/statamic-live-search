@@ -10,9 +10,11 @@ abstract class Search extends Component
     use SearchFacade;
 
     public $q;
+    public $site;
 
     protected $queryString = [
         'q' => ['except' => ''],
+        'site' => ['except' => ''],
     ];
 
     abstract public function render();
