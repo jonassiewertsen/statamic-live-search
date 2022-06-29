@@ -2,8 +2,6 @@
 
 namespace Jonassiewertsen\LiveSearch\Http\Livewire;
 
-use Statamic\Facades\Site;
-
 class LiveSearch extends Search
 {
     public $template;
