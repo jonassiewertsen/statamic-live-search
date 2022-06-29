@@ -16,13 +16,12 @@ class LiveSearch extends Search
 
         // An index can be null. In that case, all indexes will get searched.
         $this->index = $index;
-        $this->site = Site::current()->handle;
     }
 
     public function render()
     {
         return view($this->template, [
-            'results' => $this->search($this->q, $this->site, $this->index),
+            'results' => $this->search($this->q, $this->index),
         ]);
     }
 }
