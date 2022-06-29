@@ -22,7 +22,7 @@ class LiveSearch extends Search
     public function render()
     {
         return view($this->template, [
-            'results' => $this->search($this->q, $this->index),
+            'results' => $this->search($this->q, $this->site, $this->index),
         ]);
     }
 }
