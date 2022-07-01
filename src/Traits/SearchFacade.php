@@ -4,7 +4,7 @@ namespace Jonassiewertsen\LiveSearch\Traits;
 
 use Illuminate\Support\Collection;
 use Statamic\Facades\Search as StatamicSearchFacade;
-use Statmaic\Facades\Site;
+use Statamic\Facades\Site;
 
 trait SearchFacade
 {
