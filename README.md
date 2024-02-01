@@ -112,7 +112,7 @@ This might be a solid starting point for your own template:
 
 ```html
 <div>
-    <input wire:model="q" type="search">
+    <input wire:model.live="q" type="search">
 
     <ul>
         @forelse($results as $result)
@@ -127,7 +127,7 @@ This might be a solid starting point for your own template:
 #### Antlers
 ```html
 <div>
-    <input wire:model="q" type="search">
+    <input wire:model.live="q" type="search">
 
     <ul>
         {{ results }}
