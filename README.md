@@ -16,6 +16,10 @@ This Package extends my third-party [Statamic 3 Livewire integration](https://gi
 
 Check out my [Statamic 3 Livewire integration](https://github.com/jonassiewertsen/statamic-livewire).
 
+## Upgrading
+
+Check out the upgrade guide: [Upgrade Guide](#upgrade-guide)
+
 ## Installation
 Pull in the package with composer
 ```bash
@@ -218,6 +222,21 @@ The method we have provided expects the following parameters:
 `search($query, ?string $index = null, ?int $limit = 10)`
 
 Have fun customizing. 
+
+## Upgrade guide
+
+### Version 1 to 2
+
+Livewire will be updated to Version 3 under the hood. A full Livewire upgrade guide can be found here: https://livewire.laravel.com/docs/upgrading
+
+**Breaking change**
+
+Use `wire:model.live` in your template, instead of `wire:model`
+
+> In Livewire 3, wire:model is "deferred" by default (instead of by wire:model.defer). To achieve the same behavior as wire:model from Livewire 2, you must use wire:model.live.
+
+https://livewire.laravel.com/docs/upgrading#wiremodel
+
 
 ## Credits
 
