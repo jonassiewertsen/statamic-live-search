@@ -28,8 +28,8 @@ composer require jonassiewertsen/statamic-live-search
 
 ## Requirements
 - PHP >= 8.1
-- Laravel 10
-- Statamic 4
+- Laravel 10 | 11
+- Statamic 4 | 5
 
 ## Set up Livewire
 The option to create your first search provides a quick-start example to get you going.
